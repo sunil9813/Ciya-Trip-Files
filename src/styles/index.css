@@ -1,0 +1,51 @@
+.containers {
+  @apply w-full px-8 lg:w-2/3 m-auto lg:px-0;
+}
+.primary-btn {
+  @apply px-8 py-3 bg-primary rounded-md capitalize text-white;
+}
+p {
+  @apply text-gray-400;
+}
+.flexc {
+  @apply flex items-center;
+}
+
+/* simple-progress.css */
+.progress-container {
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  height: 6px;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #3dd1d5;
+  width: 0;
+  border-radius: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.booking-accordion {
+  position: relative;
+  height: 100%;
+}
+.booking-accordion::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  width: 2px;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.2);
+  z-index: 5;
+}
+
+.experience {
+  background-image: url("../../public/images/expbg.jpg");
+  width: 100%;
+  margin-top: 50px;
+  padding: 50px 0;
+}

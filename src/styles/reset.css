@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+.react-date-picker {
+  width: 100%;
+  border: none !important;
+}
+.react-date-picker__wrapper {
+  padding: 15px;
+  border: none !important;
+}
+.react-date-picker input {
+  outline: none !important;
+}
+.range-slider .range-slider__thumb {
+  width: 18px;
+  height: 18px;
+}
+.range-slider .range-slider__thumb,
+.range-slider .range-slider__range {
+  background-color: #3dd1d5;
+}
+.range-slider {
+  height: 5px;
+}
